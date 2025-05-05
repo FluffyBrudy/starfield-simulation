@@ -8,10 +8,10 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption("Simple Game")
+        pygame.display.set_caption("Starfield Simulation")
         self.clock = pygame.time.Clock()
 
-        self.star_count = 500
+        self.star_count = 2000
         self.star_group: list[Star] = [Star() for _ in range(self.star_count)]
 
     def handle_event(self):
