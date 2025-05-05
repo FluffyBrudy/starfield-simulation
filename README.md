@@ -17,4 +17,4 @@ This project is a simple star field simulation created using Pygame. It demonstr
 
 ## demo
 
-![demo-starfield.mp4](https://tinyurl.com/3kskny2v)
+<a href="https://tinyurl.com/3kskny2v">demo video</a>
